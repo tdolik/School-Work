@@ -1,2 +1,12 @@
-/.DS_Store
-/Liam Spelling 10-5-17.pages
+.DS_Store
+*.pages
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.synctex.gz
+*.toc

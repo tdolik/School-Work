@@ -1,53 +1,20 @@
-% Pretty large text size for those at the back row
 \documentclass[14pt]{beamer}
-
 \useoutertheme{default}
-
 \setbeamercolor{titlelike}{fg=white,bg=cyan}
-
-%\setbeamercolor{normal text}{fg=white,bg=black}
-
-% I use Palatino for all text
-\usefonttheme{serif} 
-\usepackage{mathpazo} % math & rm
-\linespread{1.1}        % Palatino needs more leading (space between lines)
+\usefonttheme{serif}
+\usepackage{mathpazo}
+\linespread{1.1}
 \normalfont
 \usepackage[T1]{fontenc}
 
-% For larger spacing of table rows
 \renewcommand{\arraystretch}{1.5}  
 
-% \setbeamercolor{background canvas}{bg=magenta!10}
-% \setbeamertemplate{itemize items}[square]
 \setbeamertemplate{navigation symbols}{}
 \setbeamercolor{itemize item}{fg=gray}
-
-%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{galaxy1}}
-
-% To change margins for all slides
-%\setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
-
-% To change margin on one slide only
-\newenvironment{changemargin}[2]{%
-\begin{list}{}{%
-\setlength{\topsep}{0pt}%
-\setlength{\leftmargin}{#1}%
-\setlength{\rightmargin}{#2}%
-\setlength{\listparindent}{\parindent}%
-\setlength{\itemindent}{\parindent}%
-\setlength{\parsep}{\parskip}%
-}%
-\item[]}{\end{list}}
-
-% More typesetting environments and options for mathematics
-% \usepackage{amsmath}
-% Fancy fonts for mathematics
-% \usepackage{amsfonts}
 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \frame[plain]{\begin{center} \fontsize{72}{11}\selectfont  the word   \end{center}}
 \frame[plain]{\begin{center} \fontsize{72}{11}\selectfont a \end{center}}
 \frame[plain]{\begin{center} \fontsize{72}{11}\selectfont blue \end{center}}
 \frame[plain]{\begin{center} \fontsize{72}{11}\selectfont green \end{center}}
